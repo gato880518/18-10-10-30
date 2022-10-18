@@ -1,0 +1,557 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+img {
+
+    max-width: 100%;
+
+}
+
+
+
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+header{
+    background-color: #020403;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+header a:hover{
+    color: blueviolet;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+    
+
+}
+
+
+.img-foto{
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+
+}
+
+
+.img-container{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+
+
+
+
+.main-parrafo{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+
+
+.main-parrafo h2{
+    color: #adadad;
+    
+}
+
+
+.main-parrafo h1{
+    color: #ffffff;
+    align-items: center;
+    
+}
+
+
+.iconos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #020403;
+}
+
+
+.logos{
+
+    margin: 25px;
+}
+
+
+#container-acercaDeMi{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: #020403;
+
+}
+
+.acercaDeMi h1{
+    color: #ffffff;
+
+
+}
+
+
+
+.acercaDeMiParrafo{
+    color: #adadad;
+    align-items: center;
+    width: 500px;
+
+
+}
+
+#containerMisHabilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+}
+
+
+.MisHabilidades {
+    color: #ffffff;
+    margin-bottom: 50px;
+   
+}
+
+
+
+.losgos1-container{
+    display: flex;
+    background-color: #020403   ;
+    flex-direction : column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+
+
+
+.movile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+
+.img-movile {
+    border-radius: 50%;
+    background-color: #1C1616;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.img-motion{
+    border-radius: 50%;
+    background-color: #1C1616;
+    width: 100px;
+    height: 100px;
+    
+
+
+}
+
+
+
+.text-movile{
+ font-size:  20px;
+ color: #ffffff;
+}
+ 
+
+.motion{
+
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-motion{
+    
+ font-size:  20px;
+ color: #ffffff;
+
+}
+
+
+
+
+#containerExperiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #020403;
+
+}
+
+
+.experienciaTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.experienciaTitulo h2{
+    color: #ffffff;
+
+}
+
+
+
+
+.container-Experiencia1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #020403;
+}
+
+
+.fecha1{
+    margin-right: 200px;
+    color: #adadad;
+    
+
+}
+
+.empresas1 h2{
+    
+    color: #ffffff;
+
+
+}
+
+
+.empresas1 h3{
+    color: #adadad;
+}
+
+
+.lineas1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+    color: #020403;
+}
+
+
+
+#container-portafolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+
+}
+
+
+
+#container-portafolio h2{
+  color: #ffffff;
+
+}
+
+    
+
+.containerPortafolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+    
+}
+
+
+
+.img1{
+    margin-top: 10px;
+
+
+}
+
+
+.containerContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #020403;
+   
+    
+
+}
+
+
+.tituloContacto{
+
+    margin-right: 220px;
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+
+
+.container-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #020403;
+}
+
+
+.contacto-celular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #adadad;
+    
+}
+
+.imgCelular{
+    border-radius: 50%;
+    background-color: #1C1616;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.contacto-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #adadad;
+
+}
+
+.imgEmail{
+    border-radius: 50%;
+    background-color: #1C1616;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+.containerFooter{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020403;
+}
+
+.footerTexto h2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #adadad;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    
+
+.losgos1-container{
+    display: flex;
+    background-color: #020403;
+    flex-direction : row;
+    justify-content: center;
+    
+    
+}
+
+
+
+.movile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+
+    
+}
+
+
+.motion{
+
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+
+.container-Experiencia1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #020403;
+}
+
+
+
+.fecha1{
+    margin-right: 150px;
+    margin-top: 40px;
+    color: #adadad;
+    margin: bottom 600px;;
+    
+}
+
+
+
+.empresas1 h2{
+    
+    color: #ffffff;
+}
+
+
+.empresas1 h3{
+    color: #adadad;
+}
+
+
+.containerPortafolio{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    background-color: #020403;
+    
+}
+
+
+
+.img1{
+    margin: 10px;
+
+}
+
+
+}
