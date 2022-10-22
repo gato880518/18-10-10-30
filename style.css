@@ -359,26 +359,26 @@ header a:hover{
     flex-direction: row;
     justify-content: center;
     background-color: #020403;
-   
     
-
+    
 }
 
 
 .tituloContacto{
-
-    margin-right: 220px;
+ 
     color: #ffffff;
     margin-top: 10px;
-
+    width: 100px;
+        
 }
-
 
 .container-contacto{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #020403;
+    gap: 150px;
+    
 }
 
 
@@ -387,6 +387,8 @@ header a:hover{
     flex-direction: column;
     align-items: center;
     color: #adadad;
+    width: 100px;
+
     
 }
 
@@ -403,6 +405,8 @@ header a:hover{
     flex-direction: column;
     align-items: center;
     color: #adadad;
+    width: 100px;
+    
 
 }
 
@@ -432,6 +436,11 @@ header a:hover{
     color: #adadad;
 
 }
+
+
+
+
+
 
 
 
@@ -521,7 +530,14 @@ header a:hover{
     margin-right: 150px;
     margin-top: 40px;
     color: #adadad;
-    margin: bottom 600px;;
+    height: 100px;
+    width: 100px;
+    
+    
+}
+.empresas1{
+    height: 100px;
+    width: 200px;
     
 }
 
@@ -530,12 +546,17 @@ header a:hover{
 .empresas1 h2{
     
     color: #ffffff;
+   
 }
 
 
 .empresas1 h3{
     color: #adadad;
+
 }
+
+
+
 
 
 .containerPortafolio{
@@ -552,6 +573,8 @@ header a:hover{
     margin: 10px;
 
 }
+
+
 
 
 }
